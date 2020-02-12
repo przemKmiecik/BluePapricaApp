@@ -1,0 +1,33 @@
+.NavPanel {
+  position: relative;
+  width: 100%;
+}
+
+.NavPanel__container {
+  position: relative;
+  border-bottom: 1px solid #959595;
+  display: flex;
+}
+
+.container__btn {
+  flex-grow: 1;
+  text-align: center;
+  background: #959595;
+  text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #cfcfcf;
+  transition: 0.2s;
+}
+
+.active {
+  background: #1e5799;
+  background: -moz-linear-gradient(45deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+  background: -webkit-linear-gradient(45deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+  background: linear-gradient(45deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
+  color: white;
+  text-shadow: 0 0 2px white;
+}

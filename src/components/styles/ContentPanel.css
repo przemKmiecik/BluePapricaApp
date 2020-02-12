@@ -1,0 +1,21 @@
+.ContentPanel {
+  position: relative;
+}
+
+.ContentPanel__container {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.container__block {
+  position: relative;
+  margin: 5px;
+  width: 80%;
+  display: inline-block;
+  background: #1e5799;
+  background: -moz-linear-gradient(45deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+  background: -webkit-linear-gradient(45deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+  background: linear-gradient(45deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
+}
